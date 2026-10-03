@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Digital Sekolah</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">📚</span>
+            <span>Perpustakaan Digital</span>
+        </div>
+
+        <nav class="desktop-nav">
+            <a href="#" class="active">Beranda</a>
+            <a href="#">Buku</a>
+            <a href="#">Peminjaman</a>
+            <a href="#">Profil</a>
+        </nav>
+
+        <button class="menu-button" aria-label="Buka menu">
+            ☰
+        </button>
+    </header>
+
+
+    <!-- LAYOUT -->
+    <div class="layout">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="sidebar-title">
+                MENU UTAMA
+            </div>
+
+            <a href="#" class="sidebar-link active">
+                <span>⌂</span>
+                Beranda
+            </a>
+
+            <a href="#" class="sidebar-link">
+                <span>📚</span>
+                Data Buku
+            </a>
+
+            <a href="#" class="sidebar-link">
+                <span>▣</span>
+                Kategori
+            </a>
+
+            <a href="#" class="sidebar-link">
+                <span>📖</span>
+                Peminjaman
+            </a>
+
+            <a href="#" class="sidebar-link">
+                <span>◷</span>
+                Riwayat
+            </a>
+
+            <a href="#" class="sidebar-link">
+                <span>♙</span>
+                Profil
+            </a>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+        <main class="content">
+
+            <section class="welcome">
+                <div>
+                    <p class="small-title">PERPUSTAKAAN SEKOLAH</p>
+
+                    <h1>
+                        Selamat Datang! 👋
+                    </h1>
+
+                    <p>
+                        Temukan buku yang kamu butuhkan dan mulai membaca hari ini.
+                    </p>
+                </div>
+            </section>
+
+
+            <!-- SEARCH -->
+            <section class="search-section">
+
+                <input
+                    type="text"
+                    placeholder="Cari judul buku, penulis, atau kategori..."
+                >
+
+                <button>
+                    🔍 Cari
+                </button>
+
+            </section>
+
+
+            <!-- BOOK SECTION -->
+            <section class="books-section">
+
+                <div class="section-heading">
+                    <div>
+                        <p class="small-title">KOLEKSI</p>
+                        <h2>Buku Terbaru</h2>
+                    </div>
+
+                    <a href="#">Lihat semua →</a>
+                </div>
+
+
+                <div class="book-grid">
+
+                    <!-- BOOK 1 -->
+                    <article class="book-card">
+
+                        <div class="book-cover cover-one">
+                            <span>LAUT<br>BERCERITA</span>
+                        </div>
+
+                        <div class="book-info">
+                            <h3>Laut Bercerita</h3>
+                            <p>Leila S. Chudori</p>
+
+                            <button class="detail-button">
+                                Lihat Detail
+                            </button>
+                        </div>
+
+                    </article>
+
+
+                    <!-- BOOK 2 -->
+                    <article class="book-card">
+
+                        <div class="book-cover cover-two">
+                            <span>DILAN<br>1990</span>
+                        </div>
+
+                        <div class="book-info">
+                            <h3>Dilan 1990</h3>
+                            <p>Pidi Baiq</p>
+
+                            <button class="detail-button">
+                                Lihat Detail
+                            </button>
+                        </div>
+
+                    </article>
+
+
+                    <!-- BOOK 3 -->
+                    <article class="book-card">
+
+                        <div class="book-cover cover-three">
+                            <span>NEGERI<br>5 MENARA</span>
+                        </div>
+
+                        <div class="book-info">
+                            <h3>Negeri 5 Menara</h3>
+                            <p>Ahmad Fuadi</p>
+
+                            <button class="detail-button">
+                                Lihat Detail
+                            </button>
+                        </div>
+
+                    </article>
+
+
+                    <!-- BOOK 4 -->
+                    <article class="book-card">
+
+                        <div class="book-cover cover-four">
+                            <span>FILOSOFI<br>TERAS</span>
+                        </div>
+
+                        <div class="book-info">
+                            <h3>Filosofi Teras</h3>
+                            <p>Henry Manampiring</p>
+
+                            <button class="detail-button">
+                                Lihat Detail
+                            </button>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <!-- MOBILE BOTTOM NAVIGATION -->
+    <nav class="bottom-nav">
+
+        <a href="#" class="bottom-link active">
+            <span>⌂</span>
+            <small>Beranda</small>
+        </a>
+
+        <a href="#" class="bottom-link">
+            <span>📚</span>
+            <small>Buku</small>
+        </a>
+
+        <a href="#" class="bottom-link">
+            <span>📖</span>
+            <small>Pinjam</small>
+        </a>
+
+        <a href="#" class="bottom-link">
+            <span>♙</span>
+            <small>Profil</small>
+        </a>
+
+    </nav>
+
+</body>
+</html>
